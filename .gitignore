@@ -1,0 +1,81 @@
+# Arquivos de Cache e Bytecode do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ovos de distribuição / Pacotes
+*.egg-info/
+.eggs/
+dist/
+build/
+eggs/
+parts/
+bin/
+develop-eggs/
+lib/
+lib64/
+sdist/
+var/
+wheels/
+*.egg
+pip-wheel-metadata/
+share/python-wheels/
+*.manifest
+*.spec
+
+# Arquivos de ambiente virtual
+.env
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Arquivos específicos do PyCharm
+.idea/
+*.iws
+*.iml
+
+# Arquivos específicos do VS Code
+.vscode/
+.history/
+
+# Arquivos de dependências do Pip
+pip-log.txt
+pip-delete-this-directory.txt
+pip-selfcheck.json
+
+# Arquivos de configuração local e de segredos
+local_settings.py
+*.sqlite3
+*.db
+*.db3
+db.sqlite3
+db.sqlite3-journal
+*.log
+*.pot
+celerybeat-schedule
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de Testes
+.pytest_cache/
+.tox/
+htmlcov/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints
+
+# Arquivos de documentação
+/docs/_build/
+
+# Outros
+*.swp
+*~
