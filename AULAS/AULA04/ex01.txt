@@ -1,4 +1,4 @@
 --- Análise de Sentimento ---
 Texto Analisado: Não se esqueça da oração. Cada vez que você orar, se sua oração for sincera, haverá um novo sentimento e um novo significado nela, o que lhe dará nova coragem.
-Palavras com sentimento encontradas: orar (1), sincera (1), novo (1), novo (1), nova (1)
-Pontuação Final: 5
+Palavras com sentimento encontradas: 
+Pontuação Final: 0
