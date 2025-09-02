@@ -15,9 +15,9 @@ from typing import Dict
 # 1. CARREGAR O LÉXICO DE SENTIMENTOS
 dicionario_lexico: Dict[str, int] = {}
 
-# O uso do 'with' garante que o arquivo será fechado automaticamente no final.
-with open("C:\\Users\\wrs_w\\OneDrive\\Desktop\\FATEC\\PROCESSAMENTO DE LINGUAGEM NATURAL - ISW_037\\AULAS\\AULA04\\lexico_v3.0.txt", "r", encoding="utf-8") as arquivo:
-	#
+
+with open("C:\\Users\\wrs_w\\OneDrive\\Desktop\\FATEC\\PROCESSAMENTO DE LINGUAGEM NATURAL - ISW037\\AULAS\\AULA04\\lexico_v3.0.txt", "r", encoding="utf-8") as arquivo:
+
 	for linha in arquivo:
 		campos = linha.strip().split(",")
 		if len(campos) >= 3:
@@ -52,7 +52,7 @@ print("\n--- Análise de Sentimento ---")
 print("Palavras com sentimento encontradas no texto:", ", ".join(palavras_encontradas))
 print(f"PONTUAÇÃO FINAL DO TEXTO: {pontuacao}")
 
-with open("C:\\Users\\wrs_w\\OneDrive\\Desktop\\FATEC\\PROCESSAMENTO DE LINGUAGEM NATURAL - ISW_037\\AULAS\\AULA04\\ex01.txt", "w", encoding="utf-8") as gravacao:
+with open("C:\\Users\\wrs_w\\OneDrive\\Desktop\\FATEC\\PROCESSAMENTO DE LINGUAGEM NATURAL - ISW037\\AULAS\\AULA04\\ex01.txt", "w", encoding="utf-8") as gravacao:
 	gravacao.write("--- Análise de Sentimento ---\n")
 	gravacao.write(f"Texto Analisado: {texto_escolhido}\n")
 	gravacao.write(f"Palavras com sentimento encontradas: {', '.join(palavras_encontradas)}\n")
